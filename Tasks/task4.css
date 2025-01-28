@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url("images/t4i1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: rgb(58, 54, 54);
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* .navbar a:hover {
+  text-decoration: underline;
+} */
+
+.title {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 32px;
+  padding: 10px;
+  background-color: black;
+}
+
+.book-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.book-card {
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  width: 200px;
+  text-align: center;
+  border: 2px solid rgb(7, 184, 243);
+}
+
+.book-card h2 {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.book-card p {
+  margin: 5px 0;
+}
+
+.stock {
+  color: green;
+  font-weight: bold;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: rgb(108, 23, 177);
+}
+
+th {
+  padding: 10px;
+  text-align: center;
+  background: #da6bc1;
+  font-size: 18px;
+}
+td {
+  border: 1px solid white;
+  padding: 10px;
+  text-align: center;
+}
+
+td {
+  background: rgba(75, 33, 211, 0.5);
+}
+
+@media (max-width: 768px) {
+  .book-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  table {
+    width: 100%;
+  }
+}
