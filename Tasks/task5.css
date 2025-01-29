@@ -32,10 +32,15 @@ h1 {
 }
 .forest {
   background: linear-gradient(to right, #6dd5ed, #98ff98, #32cd32);
+  filter: contrast(1.2) brightness(1.1);
 }
 .flowers {
-  background: linear-gradient(to right, #ffb6c1, #d76450, #ffb6c1);
+  background: radial-gradient(circle, #ca7465, #f2c6cd);
+  filter: contrast(1.2) brightness(1.1);
 }
 .ocean {
-  background: linear-gradient(to right, #ffdab9, #ff7f50);
+  background: conic-gradient(from 180deg, #f6dcc6, #f9946f);
+  filter: contrast(1.2) brightness(1.1);
+
+  /* background: linear-gradient(to right, #ffdab9, #ff7f50); */
 }
