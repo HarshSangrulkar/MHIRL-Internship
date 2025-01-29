@@ -1,0 +1,41 @@
+body {
+  background: linear-gradient(to right, #6dd5ed, #2193b0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.container {
+  background: #f8fdfd;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 700px;
+}
+h1 {
+  margin-bottom: 20px;
+}
+.card {
+  text-align: left;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 0 2px 5px rgba(0.2, 0.2, 0.2, 0.2);
+}
+.sunset {
+  background: #f8f8f8;
+}
+.forest {
+  background: linear-gradient(to right, #6dd5ed, #98ff98, #32cd32);
+}
+.flowers {
+  background: linear-gradient(to right, #ffb6c1, #d76450, #ffb6c1);
+}
+.ocean {
+  background: linear-gradient(to right, #ffdab9, #ff7f50);
+}
