@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: url("images/t7i4.jpg") center/cover no-repeat fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: #22004d;
+  color: white;
+  padding: 15px;
+  font-size: 24px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10000;
+}
+.heading {
+  position: fixed;
+  top: 12%;
+  left: 37%;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px black;
+  z-index: 2;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  margin-top: 30vh;
+  padding-bottom: 25vh;
+}
+
+.coaches {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.coach-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.coach-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.players-container {
+  width: 300px;
+  height: 400px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.players-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.player-card {
+  flex: 0 0 auto;
+  margin: 10px;
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  text-align: center;
+  width: 90%;
+}
+
+.player-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.rankings-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  z-index: 2;
+}
+
+.rankings-table th,
+.rankings-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.rankings-table th {
+  background: #004d99;
+  color: white;
+}
+
+.rankings-table tr {
+  background: #f2f2f2;
+}
+
+.footer {
+  background: #22004d;
+  color: white;
+  padding: 20px;
+  margin-top: auto;
+  z-index: 1000;
+}
