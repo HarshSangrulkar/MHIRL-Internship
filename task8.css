@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(224, 229, 233, 0.97);
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: purple;
+  font-family: Arial;
+  color: antiquewhite;
+  margin: 0;
+  padding: 0;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* border: 1px solid black; */
+}
+.testimonial {
+  width: 45%;
+  /* height: 50vh; */
+  padding: 15px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 7px;
+  background-color: aliceblue;
+}
+.two {
+  background-color: rgb(217, 185, 220);
+  border-left: 6px solid purple;
+}
+
+.testimonial img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.content .name p {
+  font-size: 14px;
+  color: rgb(157, 154, 154);
+  margin-top: 0;
+}
+.content .name h3 {
+  margin-bottom: 5px;
+}
