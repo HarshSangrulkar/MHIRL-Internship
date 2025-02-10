@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(244, 238, 238);
+  font-family: Arial;
+}
+nav {
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  font-size: large;
+}
+nav img {
+  padding-left: 25px;
+  width: 90px;
+  /* height: 100%; */
+}
+
+/* search bar */
+input {
+  width: 90%;
+  border: none;
+  outline: none;
+  background-color: rgb(243, 240, 240);
+  font-size: larger;
+}
+.search-container {
+  padding: 5px;
+  width: 50%;
+  border-radius: 9px;
+  background-color: rgb(243, 240, 240);
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+}
+i {
+  padding: 5px;
+  margin: 5px;
+  color: black;
+}
+.container {
+  border-radius: 6px;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(9, 1fr);
+  padding: 10px;
+  /* justify-items: center; */
+  margin: 15px;
+  background-color: white;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  align-items: center;
+  padding-top: 20px;
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+}
+.item img {
+  width: 75px;
+  height: 75px;
+}
+h4 {
+  text-align: center;
+}
+
+.imageholder {
+  /* width: 100%; */
+  /* height: 50px; */
+  margin: 15px;
+  border-radius: 6px;
+}
+.imageholder img {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+
+.carousel-inner img {
+  max-width: 95%; /* Adjust width */
+  height: 300px; /* Adjust height */
+  margin: auto; /* Center the images */
+  object-fit: cover;
+}
+
+/* electronics grid */
+.electronics {
+  background: white;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.electronics-container {
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding: 10px;
+  margin: 15px;
+}
+.ele-item {
+  text-align: center;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.ele-item img {
+  width: 100%;
+  max-height: 150px;
+  object-fit: contain;
+}
+h2 {
+  margin-bottom: 20px;
+  padding-left: 15px;
+}
+b {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 3px;
+}
