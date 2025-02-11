@@ -204,59 +204,63 @@ p {
 }
 
 /* Tablet Display */
-/* @media (min-width: 720px) {
-  .electronics-container {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    white-space: nowrap;
-    padding: 10px 0;
-    gap: 10px;
-  }
 
-  .ele-item {
-    scroll-snap-align: center;
-    width: 180px;
-  }
-
-  .ele-item img {
-    max-height: 120px;
-  }
-
-  .electronics-container {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    white-space: nowrap;
-    padding: 10px 0;
-    gap: 10px;
-  }
-
-  .ele-item {
-    scroll-snap-align: center;
-    width: 180px;
-  }
-
-  .ele-item img {
-    max-height: 120px;
-  }
-
+@media (min-width: 480px) and (max-width: 1024px) {
   nav {
     justify-content: space-between;
   }
 
   nav a {
-    font-size: 0; 
+    font-size: 0; /* Hiding text */
   }
 
   nav a i {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .search-container {
-    order: 1; 
+    order: 1; /* Push search bar below the navbar */
     width: 100%;
     max-width: none;
     margin-top: 10px;
   }
-} */
+  .container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px 0;
+    gap: 10px;
+  }
+
+  .item {
+    scroll-snap-align: center;
+    padding: 10px;
+  }
+
+  .item img {
+    width: 70px;
+    height: 70px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+  .electronics-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px 0;
+    gap: 10px;
+  }
+
+  .ele-item {
+    scroll-snap-align: center;
+    width: 200px;
+  }
+
+  .ele-item img {
+    max-height: 120px;
+  }
+}
