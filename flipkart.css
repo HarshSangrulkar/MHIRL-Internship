@@ -204,7 +204,7 @@ p {
 }
 
 /* Tablet Display */
-@media (min-width: 720px) {
+/* @media (min-width: 720px) {
   .electronics-container {
     display: flex;
     flex-wrap: nowrap;
@@ -246,7 +246,7 @@ p {
   }
 
   nav a {
-    font-size: 0; /* Hiding text */
+    font-size: 0; 
   }
 
   nav a i {
@@ -254,9 +254,9 @@ p {
   }
 
   .search-container {
-    order: 1; /* Push search bar below the navbar */
+    order: 1; 
     width: 100%;
     max-width: none;
     margin-top: 10px;
   }
-}
+} */
