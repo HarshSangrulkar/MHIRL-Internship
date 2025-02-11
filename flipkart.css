@@ -202,3 +202,61 @@ b {
 p {
   margin: 3px;
 }
+
+/* Tablet Display */
+@media (min-width: 720px) {
+  .electronics-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px 0;
+    gap: 10px;
+  }
+
+  .ele-item {
+    scroll-snap-align: center;
+    width: 180px;
+  }
+
+  .ele-item img {
+    max-height: 120px;
+  }
+
+  .electronics-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px 0;
+    gap: 10px;
+  }
+
+  .ele-item {
+    scroll-snap-align: center;
+    width: 180px;
+  }
+
+  .ele-item img {
+    max-height: 120px;
+  }
+
+  nav {
+    justify-content: space-between;
+  }
+
+  nav a {
+    font-size: 0; /* Hiding text */
+  }
+
+  nav a i {
+    font-size: 20px;
+  }
+
+  .search-container {
+    order: 1; /* Push search bar below the navbar */
+    width: 100%;
+    max-width: none;
+    margin-top: 10px;
+  }
+}
