@@ -321,3 +321,41 @@ footer {
   border-left: 1px solid wheat;
   padding-left: 25px;
 }
+@media screen and (orientation: portrait) {
+  footer {
+    padding: 20px;
+  }
+
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    text-align: center;
+  }
+
+  .footer-section {
+    text-align: center;
+  }
+
+  .footer-section h4 {
+    text-align: center;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .social-icons {
+    margin-top: 15px;
+  }
+
+  .payment-icons {
+    margin-top: 10px;
+  }
+
+  .line,
+  .linee {
+    border: none;
+    padding-left: 0;
+  }
+}
