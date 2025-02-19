@@ -240,3 +240,84 @@ p {
     max-height: 7.5rem;
   }
 }
+
+footer {
+  background-color: #181818;
+  color: white;
+  padding: 30px 50px;
+}
+
+.footer-container {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; */
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  /* gap: 5px; */
+}
+
+.footer-section {
+  gap: 5px;
+}
+
+.footer-section h4 {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.footer-section ul li:hover {
+  text-decoration: underline;
+}
+.footer-section a {
+  color: blue;
+}
+
+.address {
+  gap: 10px;
+}
+
+.address p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.social-icons i {
+  font-size: 18px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.payment-icons img {
+  width: 50px;
+  margin-left: 10px;
+  height: 25px;
+}
+.line {
+  border-right: 1px solid wheat;
+}
+.linee {
+  border-left: 1px solid wheat;
+  padding-left: 25px;
+}
